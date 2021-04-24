@@ -1,0 +1,25 @@
+{
+	title: "刺客杀手",
+	x: 3.0d,
+	y: 1.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "c15001df",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "atum:assassin",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "b8803540",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

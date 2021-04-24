@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 1.0d,
+	description: "用木头做一个工作台吧",
+	dependencies: [
+		"001955d7"
+	],
+	tasks: [{
+		uid: "767c5b28",
+		type: "item",
+		items: [{
+			item: "minecraft:planks"
+		}]
+	}],
+	rewards: [{
+		uid: "44ba19f4",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "adc38603",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

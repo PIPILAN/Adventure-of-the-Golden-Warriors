@@ -1,0 +1,25 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	dependencies: [
+		"3accacb0"
+	],
+	tasks: [{
+		uid: "1d41d9ea",
+		type: "item",
+		title: "想在冬天种植，只能用温室玻璃了",
+		items: [{
+			item: "sereneseasons:greenhouse_glass"
+		}]
+	}],
+	rewards: [{
+		uid: "a46e2b71",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "63d73aad",
+		type: "random",
+		table: 0
+	}]
+}

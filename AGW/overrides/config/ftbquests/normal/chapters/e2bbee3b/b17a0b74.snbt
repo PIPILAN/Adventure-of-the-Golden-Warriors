@@ -1,0 +1,28 @@
+{
+	x: 2.5d,
+	y: 1.0d,
+	description: "寻找含有充裕性能的工具",
+	dependencies: [
+		"c20daf0a"
+	],
+	tasks: [{
+		uid: "6ee30a13",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemskyresonator",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c709b130",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

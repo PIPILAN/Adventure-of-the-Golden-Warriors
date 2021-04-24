@@ -1,0 +1,24 @@
+{
+	x: 13.0d,
+	y: 1.5d,
+	dependencies: [
+		"4ef0dec8"
+	],
+	tasks: [{
+		uid: "8f06ebd6",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:ender_bow"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "05849c7e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

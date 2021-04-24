@@ -1,0 +1,95 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "99eb55b7",
+		type: "item",
+		title: "制作一顶帐篷",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 0b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 1b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 2b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 3b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "yurtmod:tent",
+			tag: {
+				TentData: {
+					TentColor: 0,
+					TentType: 4b,
+					WidthCur: 0b,
+					DepthCur: 0b,
+					ID: -32768L
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5702a82c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ed45e00c",
+		type: "loot",
+		table: 0
+	}]
+}

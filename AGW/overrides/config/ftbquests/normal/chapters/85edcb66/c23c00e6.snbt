@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "95ff37c8",
+		type: "kill",
+		title: "击杀一只钻石居蟹",
+		icon: "minecraft:diamond",
+		entity: "mowziesmobs:grottol",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d35e61f4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "233cf435",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	title: "混沌之地",
+	x: 7.0d,
+	y: 1.0d,
+	dependencies: [
+		"e8a7950d",
+		"7d609393"
+	],
+	tasks: [{
+		uid: "c5bdf4bd",
+		type: "dimension",
+		dim: 66
+	}],
+	rewards: [{
+		uid: "9b1db2e4",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

@@ -1,0 +1,72 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"f44fb2d0"
+	],
+	tasks: [{
+		uid: "4404c210",
+		type: "item",
+		title: "魔杖",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:magic_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_fire_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_ice_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_lightning_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_necromancy_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_earth_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_sorcery_wand"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:novice_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec9d9c92",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "1500f626",
+		type: "loot",
+		table: 1
+	}]
+}

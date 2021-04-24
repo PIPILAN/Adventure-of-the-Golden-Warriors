@@ -1,0 +1,16 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a8ba4220",
+		type: "dimension",
+		title: "进入午夜世界",
+		icon: "midnight:midnight_grass",
+		dim: -23
+	}],
+	rewards: [{
+		uid: "28263130",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

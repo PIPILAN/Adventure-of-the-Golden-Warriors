@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 2.5d,
+	description: "石头可以制作简易的熔炉用来烧制物品",
+	dependencies: [
+		"e0bfa74d"
+	],
+	tasks: [{
+		uid: "6ddc12a3",
+		type: "item",
+		items: [{
+			item: "minecraft:furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "f8f14ef7",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "a0fac777",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

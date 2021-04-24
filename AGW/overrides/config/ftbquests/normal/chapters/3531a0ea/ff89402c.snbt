@@ -1,0 +1,43 @@
+{
+	title: "龙鳞",
+	x: 0.0d,
+	y: 0.0d,
+	dependencies: [
+		"c62f0833",
+		"6ed5b911"
+	],
+	tasks: [{
+		uid: "dab83898",
+		type: "item",
+		title: "获得龙鳞",
+		items: [{
+			item: "iceandfire:dragonscales_red"
+		},
+		{
+			item: "iceandfire:dragonscales_green"
+		},
+		{
+			item: "iceandfire:dragonscales_bronze"
+		},
+		{
+			item: "iceandfire:dragonscales_gray"
+		},
+		{
+			item: "iceandfire:dragonscales_blue"
+		},
+		{
+			item: "iceandfire:dragonscales_white"
+		},
+		{
+			item: "iceandfire:dragonscales_sapphire"
+		},
+		{
+			item: "iceandfire:dragonscales_silver"
+		}]
+	}],
+	rewards: [{
+		uid: "d882c963",
+		type: "ftbmoney:money",
+		ftb_money: 10L
+	}]
+}

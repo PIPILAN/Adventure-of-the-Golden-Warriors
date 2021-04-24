@@ -1,0 +1,373 @@
+{
+	title: "基础奖励",
+	loot_size: 1,
+	rewards: [{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_fire"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonbone_sword_ice"
+		},
+		weight: 10
+	},
+	{
+		item: "iceandfire:dragon_bone_block",
+		weight: 3
+	},
+	{
+		item: "minecraft:diamond_block",
+		weight: 5
+	},
+	{
+		item: "minecraft:emerald_block",
+		weight: 5
+	},
+	{
+		item: "minecraft:gold_block",
+		weight: 50
+	},
+	{
+		item: "minecraft:iron_block",
+		weight: 100
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:sun_pet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:cloud_pet"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:banana_pet"
+		},
+		weight: 10
+	},
+	{
+		xp: 1395,
+		type: "xp",
+		weight: 20
+	},
+	{
+		ftb_money: 500L,
+		type: "ftbmoney:money",
+		weight: 50
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 4s,
+					id: 92s
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 33s
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 70s
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 1s,
+					id: 51s
+				}]
+			}
+		},
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:house_pet"
+		},
+		weight: 2
+	},
+	{
+		item: "scalinghealth:heartcontainer",
+		weight: 20
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "ebwizardry:charm_experience_tome"
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:chair",
+			tag: {
+				IsNoGravity: 0b,
+				MountedHeight: -0.1875f,
+				TameableCanRide: 0b,
+				ModelId: "touhou_little_maid:parasol"
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:gashapon",
+			Damage: 1s
+		},
+		weight: 16
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:gashapon",
+			Damage: 2s
+		},
+		weight: 8
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:gashapon",
+			Damage: 3s
+		},
+		weight: 4
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:gashapon",
+			Damage: 4s
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "touhou_little_maid:gashapon",
+			Damage: 5s
+		}
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:chicken_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:cow_pet"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:ocelot_pet"
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:pig_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:sheep_pet",
+			tag: {
+				GiveItems: 1b
+			}
+		},
+		weight: 10
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "inventorypets:squid_pet"
+		},
+		weight: 10
+	},
+	{
+		item: "ebwizardry:firebomb",
+		count: 16,
+		weight: 5
+	},
+	{
+		item: "ebwizardry:poison_bomb",
+		count: 16,
+		weight: 5
+	},
+	{
+		item: "ebwizardry:smoke_bomb",
+		count: 16,
+		weight: 5
+	},
+	{
+		item: "ebwizardry:spark_bomb",
+		count: 16,
+		weight: 5
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "waystones:warp_stone"
+		},
+		weight: 2
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "openglider:hang_glider_basic"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {},
+				"xat:trinket": {
+					handler: 0,
+					mana: 0,
+					count: 0,
+					alt.ability: 0b,
+					player.status: -1,
+					slot: -1,
+					exp: 0,
+					target: -1,
+					main.ability: 0b
+				}
+			},
+			id: "xat:sea_stone"
+		}
+	},
+	{
+		item: "morefurnaces:furnaceblock 1 2",
+		weight: 5
+	},
+	{
+		item: "ironchest:iron_chest 1 5",
+		weight: 5
+	},
+	{
+		item: "disenchanter:disenchantmenttable",
+		weight: 3
+	},
+	{
+		item: "astralsorcery:itemcraftingcomponent",
+		count: 16,
+		weight: 30
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "defiledlands:scarlite_ring"
+		},
+		weight: 3
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:wasp_sword"
+		},
+		weight: 15
+	},
+	{
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:max_speed_bow"
+		}
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: -1.5d,
+	dependencies: [
+		"ee702967"
+	],
+	tasks: [{
+		uid: "385348b9",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "midnight:tenebrum_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "97f918ec",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

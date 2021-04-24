@@ -1,0 +1,68 @@
+{
+	title: "龙鳞胸甲",
+	x: -0.5d,
+	y: 2.0d,
+	dependencies: [
+		"ff89402c"
+	],
+	tasks: [{
+		uid: "504cc646",
+		type: "item",
+		title: "制作一件龙鳞胸甲",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_red_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_bronze_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_green_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_gray_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_blue_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_white_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_sapphire_chestplate"
+		},
+		{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:armor_silver_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "446e2fab",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

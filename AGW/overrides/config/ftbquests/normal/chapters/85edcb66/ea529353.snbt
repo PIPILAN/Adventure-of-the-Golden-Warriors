@@ -1,0 +1,27 @@
+{
+	x: 5.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "217387f5",
+		type: "kill",
+		title: "击杀一次太阳酋长",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:barako_mask"
+		},
+		entity: "mowziesmobs:barako",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "4416b87d",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "cdc082f4",
+		type: "loot",
+		table: 0
+	}]
+}

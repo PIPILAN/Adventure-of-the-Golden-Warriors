@@ -1,0 +1,20 @@
+{
+	title: "辣手摧花",
+	x: -3.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "eba32ec1",
+		type: "kill",
+		title: "杀死一只小精灵",
+		icon: "iceandfire:pixie_wings",
+		entity: "iceandfire:if_pixie",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c76a567d",
+		type: "command",
+		title: "你猜会有什么？",
+		icon: "minecraft:barrier",
+		command: "/effect @p minecraft:poison 999999 0"
+	}]
+}

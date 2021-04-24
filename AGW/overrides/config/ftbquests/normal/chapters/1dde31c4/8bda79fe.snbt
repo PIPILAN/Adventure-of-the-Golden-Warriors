@@ -1,0 +1,18 @@
+{
+	x: 0.5d,
+	y: -3.5d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "37a0145d",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	}],
+	rewards: [{
+		uid: "0ba9ce85",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

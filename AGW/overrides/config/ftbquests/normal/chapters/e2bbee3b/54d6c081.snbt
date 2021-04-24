@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -2.0d,
+	dependencies: [
+		"8187e66f"
+	],
+	tasks: [{
+		uid: "04bdae3e",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmapdrawingtable"
+		}]
+	}],
+	rewards: [{
+		uid: "c0cde970",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

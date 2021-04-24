@@ -1,0 +1,22 @@
+{
+	x: 5.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "adf1af84",
+		type: "item",
+		title: "制作一个温度计",
+		items: [{
+			item: "toughasnails:thermometer"
+		}]
+	}],
+	rewards: [{
+		uid: "9ace80af",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d8ee7d9d",
+		type: "loot",
+		table: 0
+	}]
+}

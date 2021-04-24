@@ -1,0 +1,24 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	dependencies: [
+		"4381f071"
+	],
+	tasks: [{
+		uid: "31e650fe",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:minotaur_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d10f11af",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

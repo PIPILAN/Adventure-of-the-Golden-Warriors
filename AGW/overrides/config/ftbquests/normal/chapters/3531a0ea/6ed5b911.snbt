@@ -1,0 +1,28 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "dd9aefab",
+		type: "kill",
+		title: "击杀一头冰龙",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonegg_sapphire"
+		},
+		entity: "iceandfire:icedragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "772c3ec7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "6dd189e0",
+		type: "random",
+		auto: "enabled",
+		table: 0
+	}]
+}

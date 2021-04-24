@@ -1,0 +1,27 @@
+{
+	title: "我是拥有无限条生命的神！啊哈哈！",
+	x: -3.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "5a2691b7",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "bountifulbaubles:trinketbrokenheart"
+		},
+		stat: "stat.damageTaken",
+		value: 100000
+	}],
+	rewards: [{
+		uid: "db219499",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "f590a353",
+		type: "random",
+		table: 0
+	}]
+}

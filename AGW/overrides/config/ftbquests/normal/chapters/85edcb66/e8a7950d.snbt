@@ -1,0 +1,17 @@
+{
+	title: "盖亚楔石",
+	x: 7.5d,
+	y: 0.0d,
+	tasks: [{
+		uid: "7ae52357",
+		type: "item",
+		items: [{
+			item: "erebus:gaean_keystone"
+		}]
+	}],
+	rewards: [{
+		uid: "ee069730",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	}]
+}

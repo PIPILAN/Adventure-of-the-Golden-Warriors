@@ -1,0 +1,20 @@
+{
+	x: -0.5d,
+	y: 1.0d,
+	description: "抛光！提高品质",
+	dependencies: [
+		"64db5d8b"
+	],
+	tasks: [{
+		uid: "352810dd",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockmachine 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "2e099fb1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

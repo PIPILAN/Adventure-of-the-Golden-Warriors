@@ -1,0 +1,30 @@
+{
+	x: 5.5d,
+	y: -2.0d,
+	dependencies: [
+		"e94b0642"
+	],
+	tasks: [{
+		uid: "bad19c84",
+		type: "item",
+		items: [{
+			id: "astralsorcery:blocklens",
+			tag: {
+				astralsorcery: {
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					}
+				}
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "a359f562",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

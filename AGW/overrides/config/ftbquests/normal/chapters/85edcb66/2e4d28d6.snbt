@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "b39437f6",
+		type: "kill",
+		title: "击杀一次冰霜巨口",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:ice_crystal"
+		},
+		entity: "mowziesmobs:frostmaw",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ec65e019",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	},
+	{
+		uid: "0986c473",
+		type: "loot",
+		table: 0
+	}]
+}

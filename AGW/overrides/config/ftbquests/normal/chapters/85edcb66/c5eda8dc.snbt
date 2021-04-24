@@ -1,0 +1,40 @@
+{
+	title: "盖亚宝石",
+	icon: "erebus:altar_offering",
+	x: 7.0d,
+	y: -1.0d,
+	description: "将钻石绿宝石黑曜石放在祭坛上就会合成盖亚宝石",
+	tasks: [{
+		uid: "e2ae527f",
+		type: "item",
+		items: [{
+			item: "erebus:altar_offering"
+		}]
+	},
+	{
+		uid: "7b73f098",
+		type: "item",
+		items: [{
+			item: "minecraft:emerald"
+		}]
+	},
+	{
+		uid: "77f793bb",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	},
+	{
+		uid: "bd1fff52",
+		type: "item",
+		items: [{
+			item: "minecraft:obsidian"
+		}]
+	}],
+	rewards: [{
+		uid: "4eef99d5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

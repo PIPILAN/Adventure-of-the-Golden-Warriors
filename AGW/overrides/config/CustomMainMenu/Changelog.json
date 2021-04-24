@@ -1,0 +1,65 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/blackgui.png",
+            "posX" : -210,
+            "posY" : -120,
+            "width" : 420,
+            "height" : 240,
+			"imageWidth": 256,
+			"imageHeight": 256,
+            "alignment": "center"
+        }
+    },
+	
+	"labels": {
+		"title": {
+			"text": "§a更新记录",
+			"alignment": "center",
+			"posX": -15,
+			"posY": -110
+		},
+		"changelog": { 
+			"text": "web:https://gitee.com/pipilans/IMG/raw/master/ChangeLog/changelog.txt",
+			"color": 16579836,
+			"posX": -180,
+			"posY": -95,
+			"alignment": "center"
+		}
+	},
+    
+    "buttons":
+    {
+        "back":
+        {
+            "text" : "返回主界面",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "647095",
+			"hoverText": "Back",
+			"hoverTextColor": "647095",
+            "posX" : -105,
+            "posY" : 100,
+            "width" : 98,
+            "height" : 20,
+			"imageWidth": 980,
+			"imageHeight": 200,
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mainmenu"
+            }
+        }
+    },
+	
+    "other":
+    {
+		"background":
+		{
+            "image":"custommainmenu:textures/background.png",
+            "mode":"fill"
+        }
+    }
+}

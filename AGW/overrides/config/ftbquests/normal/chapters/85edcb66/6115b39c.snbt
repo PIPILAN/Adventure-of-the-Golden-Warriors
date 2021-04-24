@@ -1,0 +1,22 @@
+{
+	x: 7.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "e8d8a883",
+		type: "kill",
+		title: "击杀一次鬼灯笼",
+		icon: "mowziesmobs:glowing_jelly",
+		entity: "mowziesmobs:lantern",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ef8d2c5d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "12b5c4b6",
+		type: "loot",
+		table: 0
+	}]
+}

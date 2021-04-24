@@ -1,0 +1,30 @@
+{
+	x: -1.0d,
+	y: -4.5d,
+	dependencies: [
+		"a9f3c584"
+	],
+	tasks: [{
+		uid: "a4ff351f",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragon_horn",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "000309d8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "870d1ad6",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -1.5d,
+	y: -2.5d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "27bef5f7",
+		type: "item",
+		items: [{
+			item: "minecraft:gold_ingot"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "3014a149",
+		type: "ftbmoney:money",
+		ftb_money: 60L
+	}]
+}

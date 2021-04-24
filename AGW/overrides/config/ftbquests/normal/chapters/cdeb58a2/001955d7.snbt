@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: 1.0d,
+	description: "用斧头劈原木就可以获得木板了",
+	dependencies: [
+		"e7224d64"
+	],
+	tasks: [{
+		uid: "06896e28",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:axe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "366e10b7",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "da566cac",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

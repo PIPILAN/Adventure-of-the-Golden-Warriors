@@ -1,0 +1,32 @@
+{
+	x: 2.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "5e6dac70",
+		type: "item",
+		title: "做一个睡袋",
+		items: [{
+			item: "comforts:sleeping_bag"
+		}]
+	}],
+	rewards: [{
+		uid: "a7c0217e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d1d94831",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:glass_sword"
+		}
+	},
+	{
+		uid: "dfcef260",
+		type: "loot",
+		table: 0
+	}]
+}

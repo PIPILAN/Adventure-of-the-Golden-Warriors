@@ -1,0 +1,21 @@
+{
+	title: "沙漠商人",
+	x: 1.0d,
+	y: 3.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "28c48c38",
+		type: "interaction",
+		title: "和日语者交易",
+		icon: "atum:coin_gold",
+		match_type: "entity_id",
+		match: "atum:sunspeaker"
+	}],
+	rewards: [{
+		uid: "cf14d8fc",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

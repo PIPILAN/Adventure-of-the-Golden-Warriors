@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 2.0d,
+	dependencies: [
+		"f44fb2d0"
+	],
+	tasks: [{
+		uid: "1d4f40a0",
+		type: "item",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "6501f69c",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	},
+	{
+		uid: "64c705b0",
+		type: "loot",
+		table: 1
+	}]
+}

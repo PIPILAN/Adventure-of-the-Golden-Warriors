@@ -1,0 +1,19 @@
+{
+	x: 9.5d,
+	y: 2.0d,
+	dependencies: [
+		"6d22208d"
+	],
+	tasks: [{
+		uid: "fe25924b",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutbarracks"
+		}]
+	}],
+	rewards: [{
+		uid: "814a4ced",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

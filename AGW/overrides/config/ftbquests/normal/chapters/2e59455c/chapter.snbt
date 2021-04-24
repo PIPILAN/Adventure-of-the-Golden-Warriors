@@ -1,0 +1,7 @@
+{
+	title: "午夜世界",
+	icon: "midnight:midnight_grass",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

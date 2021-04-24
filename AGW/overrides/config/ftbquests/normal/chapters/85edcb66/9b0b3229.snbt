@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "470a412e",
+		type: "item",
+		title: "制作一个水罐",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "toughasnails:canteen"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2521c8c9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "00cef0e7",
+		type: "loot",
+		table: 0
+	}]
+}

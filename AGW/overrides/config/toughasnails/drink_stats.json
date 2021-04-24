@@ -1,0 +1,65 @@
+[
+  {
+    "item": {
+      "name": "minecraft:milk_bucket",
+      "metadata": 0
+    },
+    "thirst": 6,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "minecraft:apple",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "minecraft:golden_apple",
+      "metadata": 0
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "minecraft:golden_apple",
+      "metadata": 1
+    },
+    "thirst": 1,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "animania:milk_bottle",
+      "metadata": 0
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "animania:honey_bottle",
+      "metadata": 1
+    },
+    "thirst": 3,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  },
+  {
+    "item": {
+      "name": "teastory:lemon",
+      "metadata": 0
+    },
+    "thirst": 5,
+    "hydration": 0.7,
+    "poisonChance": 0.0
+  }
+]

@@ -1,0 +1,19 @@
+{
+	x: 1.5d,
+	y: 1.5d,
+	dependencies: [
+		"80c5682e"
+	],
+	tasks: [{
+		uid: "1ec2676c",
+		type: "kill",
+		title: "击杀一次潜行者",
+		entity: "midnight:skulk",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cfa0cd0c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

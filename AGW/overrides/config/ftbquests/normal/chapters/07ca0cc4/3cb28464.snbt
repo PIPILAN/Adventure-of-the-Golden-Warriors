@@ -1,0 +1,22 @@
+{
+	title: "我是附魔大师！",
+	x: -2.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "6644469f",
+		type: "stat",
+		icon: "minecraft:enchanting_table",
+		stat: "stat.itemEnchanted",
+		value: 500
+	}],
+	rewards: [{
+		uid: "2a0ab3e0",
+		type: "ftbmoney:money",
+		ftb_money: 15000L
+	},
+	{
+		uid: "b2033c30",
+		type: "xp",
+		xp: 5000
+	}]
+}

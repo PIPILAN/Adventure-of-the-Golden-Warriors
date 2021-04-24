@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -4.5d,
+	dependencies: [
+		"c62f0833",
+		"6ed5b911"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "6a00bb91",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonbone"
+		}]
+	}],
+	rewards: [{
+		uid: "a59794ed",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

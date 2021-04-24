@@ -1,0 +1,7 @@
+{
+	title: "成就与挑战",
+	icon: "minecraft:book",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

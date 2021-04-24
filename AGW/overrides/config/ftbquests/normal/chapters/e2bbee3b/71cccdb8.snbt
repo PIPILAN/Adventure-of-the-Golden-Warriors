@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: -3.0d,
+	dependencies: [
+		"e94b0642"
+	],
+	tasks: [{
+		uid: "c8534114",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockritualpedestal"
+		}]
+	}],
+	rewards: [{
+		uid: "e6c0309f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

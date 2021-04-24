@@ -1,0 +1,25 @@
+{
+	x: 2.5d,
+	y: 2.5d,
+	description: "小石子可以做成圆石",
+	dependencies: [
+		"b570f3a5"
+	],
+	tasks: [{
+		uid: "226ad589",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}]
+	}],
+	rewards: [{
+		uid: "753a84ab",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "6fa1e045",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

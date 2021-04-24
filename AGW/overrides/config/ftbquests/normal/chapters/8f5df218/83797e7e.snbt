@@ -1,0 +1,30 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	dependencies: [
+		"efad7c04"
+	],
+	tasks: [{
+		uid: "58b06e7b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:naga_chestplate",
+			tag: {
+				ench: [{
+					lvl: 3s,
+					id: 1s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f91c2e27",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

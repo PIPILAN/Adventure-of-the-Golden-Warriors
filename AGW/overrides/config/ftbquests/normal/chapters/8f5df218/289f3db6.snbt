@@ -1,0 +1,25 @@
+{
+	x: 10.5d,
+	y: 0.0d,
+	dependencies: [
+		"59c25e98"
+	],
+	tasks: [{
+		uid: "82fd0de1",
+		type: "kill",
+		title: "击杀雪怪首领",
+		icon: "twilightforest:alpha_fur",
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c6e5da9c",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "cb2d3a75",
+		type: "loot",
+		table: 0
+	}]
+}

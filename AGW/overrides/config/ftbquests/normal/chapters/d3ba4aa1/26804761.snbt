@@ -1,0 +1,148 @@
+{
+	x: 9.0d,
+	y: 2.0d,
+	dependencies: [
+		"256ad0e9"
+	],
+	tasks: [{
+		uid: "a6eb6049",
+		type: "item",
+		title: "宗师魔法书",
+		items: [{
+			item: "ebwizardry:spell_book 1 185"
+		},
+		{
+			item: "ebwizardry:spell_book 1 202"
+		},
+		{
+			item: "ebwizardry:spell_book 1 96"
+		},
+		{
+			item: "ebwizardry:spell_book 1 93"
+		},
+		{
+			item: "ebwizardry:spell_book 1 186"
+		},
+		{
+			item: "ebwizardry:spell_book 1 189"
+		},
+		{
+			item: "ebwizardry:spell_book 1 92"
+		},
+		{
+			item: "ebwizardry:spell_book 1 91"
+		},
+		{
+			item: "ebwizardry:spell_book 1 106"
+		},
+		{
+			item: "ebwizardry:spell_book 1 108"
+		},
+		{
+			item: "ebwizardry:spell_book 1 171"
+		},
+		{
+			item: "ebwizardry:spell_book 1 107"
+		},
+		{
+			item: "ebwizardry:spell_book 1 104"
+		},
+		{
+			item: "ebwizardry:spell_book 1 192"
+		},
+		{
+			item: "ebwizardry:spell_book 1 103"
+		},
+		{
+			item: "ebwizardry:spell_book 1 139"
+		},
+		{
+			item: "ebwizardry:spell_book 1 100"
+		},
+		{
+			item: "ebwizardry:spell_book 1 167"
+		},
+		{
+			item: "ebwizardry:spell_book 1 193"
+		},
+		{
+			item: "ebwizardry:spell_book 1 168"
+		},
+		{
+			item: "ebwizardry:spell_book 1 101"
+		},
+		{
+			item: "ebwizardry:spell_book 1 99"
+		},
+		{
+			item: "ebwizardry:spell_book 1 195"
+		},
+		{
+			item: "ebwizardry:spell_book 1 169"
+		},
+		{
+			item: "ebwizardry:spell_book 1 102"
+		},
+		{
+			item: "ebwizardry:spell_book 1 138"
+		},
+		{
+			item: "ebwizardry:spell_book 1 206"
+		},
+		{
+			item: "ebwizardry:spell_book 1 98"
+		},
+		{
+			item: "ebwizardry:spell_book 1 97"
+		},
+		{
+			item: "ebwizardry:spell_book 1 137"
+		},
+		{
+			item: "ebwizardry:spell_book 1 207"
+		},
+		{
+			item: "ebwizardry:spell_book 1 173"
+		},
+		{
+			item: "ebwizardry:spell_book 1 136"
+		},
+		{
+			item: "ebwizardry:spell_book 1 95"
+		},
+		{
+			item: "ebwizardry:spell_book 1 94"
+		},
+		{
+			item: "ebwizardry:spell_book 1 110"
+		},
+		{
+			item: "ebwizardry:spell_book 1 172"
+		},
+		{
+			item: "ebwizardry:spell_book 1 140"
+		},
+		{
+			item: "ebwizardry:spell_book 1 199"
+		},
+		{
+			item: "ebwizardry:spell_book 1 109"
+		},
+		{
+			item: "ebwizardry:spell_book 1 170"
+		},
+		{
+			item: "ebwizardry:spell_book 1 105"
+		}]
+	}],
+	rewards: [{
+		uid: "e4c2991f",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b0a7999d",
+		type: "loot",
+		table: 1
+	}]
+}

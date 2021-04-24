@@ -1,0 +1,19 @@
+{
+	x: -0.5d,
+	y: -0.5d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "d91a3527",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond"
+		}],
+		count: 32L
+	}],
+	rewards: [{
+		uid: "42dd57fa",
+		type: "ftbmoney:money",
+		ftb_money: 1600L
+	}]
+}

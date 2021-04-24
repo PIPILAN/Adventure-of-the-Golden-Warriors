@@ -1,0 +1,48 @@
+{
+	title: "龙炎锻炉",
+	x: -3.5d,
+	y: -1.0d,
+	dependencies: [
+		"e55f3095"
+	],
+	tasks: [{
+		uid: "1283fc4a",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_fire_core_disabled"
+		}]
+	},
+	{
+		uid: "ff3b36ee",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_bone_block"
+		}],
+		count: 8L
+	},
+	{
+		uid: "a16e8a63",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_fire_brick"
+		}],
+		count: 17L
+	},
+	{
+		uid: "682f25b4",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_fire_input"
+		}]
+	}],
+	rewards: [{
+		uid: "81d75846",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "01450667",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

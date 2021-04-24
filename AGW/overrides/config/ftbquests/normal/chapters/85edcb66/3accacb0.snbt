@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "7612fb42",
+		type: "item",
+		items: [{
+			item: "sereneseasons:season_clock"
+		}]
+	}],
+	rewards: [{
+		uid: "8ea62b21",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "2a23d62f",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -3.5d,
+	y: -1.5d,
+	dependencies: [
+		"d619409c"
+	],
+	tasks: [{
+		uid: "9b6fcc4b",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "midnight:nagrilite_axe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7877b806",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: -5.0d,
+	y: -3.0d,
+	dependencies: [
+		"2d91bd98"
+	],
+	tasks: [{
+		uid: "126a3bc4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "iceandfire:dragonsteel_fire_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "da089e0b",
+		type: "xp",
+		xp: 1395
+	}]
+}

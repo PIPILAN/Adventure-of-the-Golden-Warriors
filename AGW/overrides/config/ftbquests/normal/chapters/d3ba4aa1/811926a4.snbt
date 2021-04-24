@@ -1,0 +1,26 @@
+{
+	title: "第一个魔法",
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"f44fb2d0"
+	],
+	tasks: [{
+		uid: "54c7b2c8",
+		type: "item",
+		title: "魔法书-魔法飞弹",
+		items: [{
+			item: "ebwizardry:spell_book 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "1c481ba1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "84903e9f",
+		type: "loot",
+		table: 1
+	}]
+}

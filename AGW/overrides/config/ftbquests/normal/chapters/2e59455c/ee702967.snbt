@@ -1,0 +1,24 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"80c5682e"
+	],
+	tasks: [{
+		uid: "d2273f34",
+		type: "item",
+		items: [{
+			item: "midnight:tenebrum_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "f853d38e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "0d1a05a0",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: 4.0d,
+	description: "把挖到的铁矿石烧制一下就可以冶炼出铁锭了",
+	dependencies: [
+		"3513fd0a",
+		"f5aa4185"
+	],
+	tasks: [{
+		uid: "e15a9d94",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "4787c715",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "e853c7a9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

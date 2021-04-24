@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: 0.5d,
+	description: "新的世界总是不一样的，试着从树叶里搞一些树枝吧！",
+	tasks: [{
+		uid: "fa944066",
+		type: "item",
+		items: [{
+			item: "minecraft:stick"
+		}]
+	}],
+	rewards: [{
+		uid: "ba5fa8ab",
+		type: "item",
+		item: "minecraft:gravel",
+		count: 2
+	},
+	{
+		uid: "7336914b",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "6ed85e4e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

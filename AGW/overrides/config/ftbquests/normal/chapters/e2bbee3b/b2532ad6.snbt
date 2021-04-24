@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"e94b0642",
+		"9042bfdf"
+	],
+	tasks: [{
+		uid: "1beb3cc7",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockattunementaltar"
+		}]
+	}],
+	rewards: [{
+		uid: "d1d90117",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

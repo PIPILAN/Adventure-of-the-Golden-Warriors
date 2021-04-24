@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "f723e9b7",
+		type: "interaction",
+		title: "使用一次指路石",
+		icon: "waystones:waystone",
+		match_type: "block_id",
+		match: "waystones:waystone"
+	}],
+	rewards: [{
+		uid: "1d0b82d3",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "9652a34b",
+		type: "loot",
+		table: 0
+	}]
+}

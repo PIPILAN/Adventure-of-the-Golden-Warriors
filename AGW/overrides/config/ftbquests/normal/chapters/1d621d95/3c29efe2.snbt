@@ -1,0 +1,25 @@
+{
+	title: "文明行动",
+	x: -1.0d,
+	y: 1.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "e18be62a",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "minecolonies:barbarian",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "7a29ab3c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

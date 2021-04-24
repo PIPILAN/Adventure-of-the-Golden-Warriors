@@ -1,0 +1,30 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	dependencies: [
+		"f44fb2d0"
+	],
+	tasks: [{
+		uid: "50f987c6",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_silk"
+		}]
+	}],
+	rewards: [{
+		uid: "684d7d2e",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "b7c256b5",
+		type: "loot",
+		table: 1
+	},
+	{
+		uid: "33ed8260",
+		type: "item",
+		item: "ebwizardry:magic_silk",
+		count: 8
+	}]
+}

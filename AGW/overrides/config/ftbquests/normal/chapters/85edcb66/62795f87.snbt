@@ -1,0 +1,22 @@
+{
+	x: 3.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "62324b83",
+		type: "kill",
+		title: "击杀一次飞蛇纳伽",
+		icon: "mowziesmobs:naga_fang",
+		entity: "mowziesmobs:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "01179141",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	},
+	{
+		uid: "264c83bd",
+		type: "loot",
+		table: 0
+	}]
+}

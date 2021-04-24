@@ -1,0 +1,36 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"5873684b"
+	],
+	tasks: [{
+		uid: "9d52dbf4",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockcelestialcollectorcrystal",
+			tag: {
+				astralsorcery: {
+					constellationName: "astralsorcery.constellation.discidia",
+					crystalProperties: {
+						collectiveCapability: 100,
+						size: 900,
+						fract: 0,
+						purity: 100,
+						sizeOverride: -1
+					},
+					collectorType: 1
+				}
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f7df7476",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

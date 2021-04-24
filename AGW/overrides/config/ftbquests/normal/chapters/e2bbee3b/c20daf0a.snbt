@@ -1,0 +1,23 @@
+{
+	x: 2.5d,
+	y: -0.5d,
+	dependencies: [
+		"4ba90952"
+	],
+	tasks: [{
+		uid: "e4d8a81a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:blockaltar"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1bc5a079",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

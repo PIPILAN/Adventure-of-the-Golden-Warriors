@@ -1,0 +1,30 @@
+{
+	x: 11.0d,
+	y: -1.0d,
+	dependencies: [
+		"289f3db6"
+	],
+	tasks: [{
+		uid: "f60014e5",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:yeti_chestplate",
+			tag: {
+				ench: [{
+					lvl: 2s,
+					id: 0s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a7d84b9b",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

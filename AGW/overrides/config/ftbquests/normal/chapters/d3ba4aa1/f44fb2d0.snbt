@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: 0.0d,
+	dependencies: [
+		"20f4b902"
+	],
+	tasks: [{
+		uid: "358803e9",
+		type: "item",
+		items: [{
+			item: "ebwizardry:magic_crystal"
+		}]
+	}],
+	rewards: [{
+		uid: "095d6956",
+		type: "ftbmoney:money",
+		ftb_money: 30L
+	},
+	{
+		uid: "e45de4b7",
+		type: "loot",
+		table: 1
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	x: 3.0d,
+	y: -3.0d,
+	description: "星辉魔法必备",
+	tasks: [{
+		uid: "97c35774",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "chisel:chisel_iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "983a5a93",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "299926f3",
+		type: "loot",
+		table: 0
+	}]
+}

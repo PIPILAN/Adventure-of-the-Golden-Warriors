@@ -1,0 +1,89 @@
+{
+	title: "巫师奖励",
+	loot_size: 1,
+	rewards: [{
+		item: "ebwizardry:spell_book 1 105"
+	},
+	{
+		item: "ebwizardry:spell_book 1 108"
+	},
+	{
+		item: "ebwizardry:spell_book 1 103"
+	},
+	{
+		item: "ebwizardry:spell_book 1 139"
+	},
+	{
+		item: "ebwizardry:spell_book 1 99"
+	},
+	{
+		item: "ebwizardry:spell_book 1 100"
+	},
+	{
+		item: "ebwizardry:spell_book 1 98"
+	},
+	{
+		item: "ebwizardry:spell_book 1 64",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 194",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 79",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 162",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 87",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 163",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:spell_book 1 90",
+		weight: 3
+	},
+	{
+		item: "ebwizardry:grand_crystal",
+		count: 32
+	},
+	{
+		item: "ebwizardry:spell_book 1 46",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 118",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 44",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 45",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 23",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 182",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 14",
+		weight: 10
+	},
+	{
+		item: "ebwizardry:spell_book 1 175",
+		weight: 10
+	}]
+}

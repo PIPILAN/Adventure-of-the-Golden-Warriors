@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 2.5d,
+	description: "遍地都是的小石子有什么用呢？",
+	tasks: [{
+		uid: "8da1ddf2",
+		type: "item",
+		items: [{
+			item: "notreepunching:rock/stone"
+		}]
+	}],
+	rewards: [{
+		uid: "f95f2bb7",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "18f65f70",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

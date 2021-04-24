@@ -1,0 +1,21 @@
+{
+	title: "前往阿图姆",
+	x: 1.0d,
+	y: 1.0d,
+	tasks: [{
+		uid: "332a3d29",
+		type: "dimension",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:scarab"
+		},
+		dim: 17
+	}],
+	rewards: [{
+		uid: "02758cb4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

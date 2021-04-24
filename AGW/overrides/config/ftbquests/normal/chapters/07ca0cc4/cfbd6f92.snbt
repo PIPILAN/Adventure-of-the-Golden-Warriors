@@ -1,0 +1,28 @@
+{
+	title: "死神",
+	x: -4.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "025da9d7",
+		type: "stat",
+		title: "击杀1000只生物",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "cfm:item_knife"
+		},
+		stat: "stat.mobKills",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "7f0b3b3f",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "aa94db36",
+		type: "random",
+		table: 0
+	}]
+}

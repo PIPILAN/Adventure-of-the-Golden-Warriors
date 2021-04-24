@@ -1,0 +1,22 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "f30d66af",
+		type: "kill",
+		title: "击杀一次巨噬叶",
+		icon: "mowziesmobs:foliaath_seed",
+		entity: "mowziesmobs:foliaath",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "90d7cf29",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "dd31382e",
+		type: "loot",
+		table: 0
+	}]
+}

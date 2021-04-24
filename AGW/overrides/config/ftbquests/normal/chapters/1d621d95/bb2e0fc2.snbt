@@ -1,0 +1,25 @@
+{
+	title: "石头粉碎者",
+	x: 3.0d,
+	y: 2.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "e3fec597",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "atum:stoneguard",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "32b1c921",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

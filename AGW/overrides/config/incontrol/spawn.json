@@ -1,0 +1,13 @@
+[
+  {
+    "mob": "enderman",
+    "armorhelmet": "bountifulbaubles:crowngold",
+	"customname": "§6末影人之王",
+	"mintime": 17000,
+	"maxtime": 19000,
+    "result": "allow",
+	"speedmultiply": 3,
+	"healthadd": 2000,
+	"item": "xat:ender_tiara"
+  }
+]

@@ -1,0 +1,27 @@
+{
+	x: 6.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "01472a5f",
+		type: "item",
+		title: "制作一个滑翔翼",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "openglider:hang_glider_basic"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "44281e45",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "e85c84c3",
+		type: "loot",
+		table: 0
+	}]
+}

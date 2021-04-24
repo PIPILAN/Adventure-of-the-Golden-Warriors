@@ -1,0 +1,25 @@
+{
+	title: "法老死敌",
+	x: -1.0d,
+	y: 0.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "aabb0ad4",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "atum:mummy",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "3160f822",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

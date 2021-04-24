@@ -1,0 +1,17 @@
+{
+	x: -1.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "e226263f",
+		type: "item",
+		title: "魔法的起源",
+		items: [{
+			item: "ebwizardry:crystal_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "8bdf6530",
+		type: "ftbmoney:money",
+		ftb_money: 20L
+	}]
+}

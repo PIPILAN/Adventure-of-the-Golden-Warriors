@@ -1,0 +1,30 @@
+{
+	x: 2.5d,
+	y: 4.0d,
+	description: "用这个就可以方便制作木棍和木板了吧",
+	dependencies: [
+		"0497163f"
+	],
+	tasks: [{
+		uid: "c456d1ec",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:saw/iron"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "109401cb",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "0cb722fe",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

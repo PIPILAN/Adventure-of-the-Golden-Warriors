@@ -1,0 +1,24 @@
+{
+	x: -3.0d,
+	y: 0.0d,
+	dependencies: [
+		"80c5682e"
+	],
+	tasks: [{
+		uid: "4088e2bc",
+		type: "item",
+		items: [{
+			item: "midnight:nagrilite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "45e870a0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "d3340c79",
+		type: "loot",
+		table: 0
+	}]
+}

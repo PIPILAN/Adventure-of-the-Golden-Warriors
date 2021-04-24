@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	shape: "square",
+	can_repeat: true,
+	tasks: [{
+		uid: "3d48d6d0",
+		type: "xp",
+		value: 30L,
+		points: false
+	}],
+	rewards: [{
+		uid: "06857ee6",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

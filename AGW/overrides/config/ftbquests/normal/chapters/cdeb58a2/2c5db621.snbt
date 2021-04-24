@@ -1,0 +1,30 @@
+{
+	x: 4.5d,
+	y: -0.5d,
+	description: "这个东西可以点火，据说一个燃料+三种引燃物丢在一起就可以点燃",
+	dependencies: [
+		"e7224d64"
+	],
+	tasks: [{
+		uid: "ec9ff85d",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:fire_starter"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dc6dcc8f",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "5294d53e",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	title: "行侠仗义",
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "201d910f",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "atum:brigand",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "39282782",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

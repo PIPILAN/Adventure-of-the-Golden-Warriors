@@ -1,0 +1,28 @@
+{
+	title: "千骑附体，1000%！",
+	x: -3.5d,
+	y: -3.0d,
+	tasks: [{
+		uid: "2dbfd9a4",
+		type: "stat",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "erebus:death_compass",
+			tag: {}
+		},
+		stat: "stat.deaths",
+		value: 1000
+	}],
+	rewards: [{
+		uid: "75b79e16",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "184f3e6c",
+		type: "random",
+		table: 0
+	}]
+}

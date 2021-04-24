@@ -1,0 +1,25 @@
+{
+	x: 12.0d,
+	y: 0.0d,
+	dependencies: [
+		"289f3db6"
+	],
+	tasks: [{
+		uid: "d9303f80",
+		type: "kill",
+		title: "击杀冰雪女王",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "c41c9ada",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "b5b870be",
+		type: "loot",
+		table: 0
+	}]
+}

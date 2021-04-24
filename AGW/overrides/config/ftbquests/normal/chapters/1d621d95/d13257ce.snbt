@@ -1,0 +1,30 @@
+{
+	title: "强盗猎手",
+	x: -0.5d,
+	y: 4.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "ef0fcc36",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "atum:iron_greatsword"
+		},
+		entity: "atum:warlord",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "86632aa8",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "ff1dfc82",
+		type: "loot",
+		table: 0
+	}]
+}

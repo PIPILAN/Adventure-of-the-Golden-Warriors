@@ -1,0 +1,19 @@
+{
+	x: 9.0d,
+	y: 3.5d,
+	dependencies: [
+		"59c25e98"
+	],
+	tasks: [{
+		uid: "bfa7782c",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_tears"
+		}]
+	}],
+	rewards: [{
+		uid: "ab919669",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

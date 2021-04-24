@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	dependencies: [
+		"efad7c04"
+	],
+	tasks: [{
+		uid: "8b83a18b",
+		type: "kill",
+		title: "击杀巫妖",
+		icon: "twilightforest:trophy 1 1",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "75662c15",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "4c59fbe0",
+		type: "loot",
+		table: 0
+	}]
+}

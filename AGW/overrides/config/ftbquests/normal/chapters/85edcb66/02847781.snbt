@@ -1,0 +1,27 @@
+{
+	x: 1.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "82d6573f",
+		type: "kill",
+		title: "击杀一次钢铁守护者",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:wrought_helmet"
+		},
+		entity: "mowziesmobs:ferrous_wroughtnaut",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "01d4cc14",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "723827c7",
+		type: "loot",
+		table: 0
+	}]
+}

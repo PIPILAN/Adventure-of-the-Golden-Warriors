@@ -1,0 +1,19 @@
+{
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"f27da773"
+	],
+	tasks: [{
+		uid: "58e61026",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockcelestialgateway"
+		}]
+	}],
+	rewards: [{
+		uid: "295ab2ad",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

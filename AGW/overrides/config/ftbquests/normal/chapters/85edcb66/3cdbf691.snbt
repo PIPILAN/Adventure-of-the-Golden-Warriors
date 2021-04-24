@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	tasks: [{
+		uid: "fa653bed",
+		type: "item",
+		items: [{
+			item: "antiqueatlas:empty_antique_atlas"
+		}]
+	}],
+	rewards: [{
+		uid: "de8fac72",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "ec719553",
+		type: "loot",
+		table: 0
+	}]
+}

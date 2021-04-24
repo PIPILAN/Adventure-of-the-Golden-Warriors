@@ -1,0 +1,19 @@
+{
+	x: 6.0d,
+	y: 3.5d,
+	dependencies: [
+		"dd506afe"
+	],
+	tasks: [{
+		uid: "3f98573f",
+		type: "item",
+		items: [{
+			item: "twilightforest:fiery_blood"
+		}]
+	}],
+	rewards: [{
+		uid: "3178f320",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

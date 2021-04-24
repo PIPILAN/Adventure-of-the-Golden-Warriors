@@ -1,0 +1,29 @@
+{
+	x: 6.0d,
+	y: -0.5d,
+	dependencies: [
+		"e7224d64"
+	],
+	tasks: [{
+		uid: "343d3028",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:shovel/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9213e76e",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "55361053",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

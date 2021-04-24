@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	dependencies: [
+		"8a13cf26",
+		"5f4df4b3"
+	],
+	dependency_requirement: "one_completed",
+	tasks: [{
+		uid: "f7bceb08",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:fiery_pickaxe"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3016e6c4",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

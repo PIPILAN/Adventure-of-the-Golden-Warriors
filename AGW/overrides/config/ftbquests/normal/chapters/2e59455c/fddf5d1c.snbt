@@ -1,0 +1,19 @@
+{
+	x: 0.5d,
+	y: -1.5d,
+	dependencies: [
+		"80c5682e"
+	],
+	tasks: [{
+		uid: "3183f4be",
+		type: "kill",
+		title: "击杀一次新星",
+		entity: "midnight:nova",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "929e7a42",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

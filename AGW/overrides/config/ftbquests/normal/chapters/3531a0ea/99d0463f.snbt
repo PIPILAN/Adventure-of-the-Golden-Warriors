@@ -1,0 +1,48 @@
+{
+	title: "龙霜锻炉",
+	x: 3.5d,
+	y: -1.0d,
+	dependencies: [
+		"97c14f32"
+	],
+	tasks: [{
+		uid: "b7fca236",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_ice_core_disabled"
+		}]
+	},
+	{
+		uid: "61279d0d",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_ice_input"
+		}]
+	},
+	{
+		uid: "0ff9b26f",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragonforge_ice_brick"
+		}],
+		count: 17L
+	},
+	{
+		uid: "35456565",
+		type: "item",
+		items: [{
+			item: "iceandfire:dragon_bone_block"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "ae0849ca",
+		type: "random",
+		table: 0
+	},
+	{
+		uid: "3ec44b82",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

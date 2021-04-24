@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"4381f071"
+	],
+	tasks: [{
+		uid: "a7133347",
+		type: "kill",
+		title: "击杀九头蛇",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "996390d5",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "91118bce",
+		type: "loot",
+		table: 0
+	}]
+}

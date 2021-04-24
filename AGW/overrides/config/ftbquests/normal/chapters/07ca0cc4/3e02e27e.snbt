@@ -1,0 +1,28 @@
+{
+	title: "真男人！石粒！",
+	x: -4.0d,
+	y: -2.0d,
+	tasks: [{
+		uid: "6a0145b6",
+		type: "stat",
+		title: "坚持现实世界24小时不死亡",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:totem_of_undying"
+		},
+		stat: "stat.timeSinceDeath",
+		value: 1728000
+	}],
+	rewards: [{
+		uid: "1d9dd055",
+		type: "ftbmoney:money",
+		ftb_money: 10000L
+	},
+	{
+		uid: "b2fa96cb",
+		type: "random",
+		table: 0
+	}]
+}

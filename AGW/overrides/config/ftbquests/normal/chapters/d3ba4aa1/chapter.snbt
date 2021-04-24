@@ -1,0 +1,12 @@
+{
+	title: "巫师之路",
+	icon: {
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		},
+		id: "ebwizardry:wizard_handbook"
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

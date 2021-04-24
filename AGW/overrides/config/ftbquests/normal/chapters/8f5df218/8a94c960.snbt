@@ -1,0 +1,24 @@
+{
+	x: 8.0d,
+	y: 1.0d,
+	dependencies: [
+		"096f6fe9"
+	],
+	tasks: [{
+		uid: "1018fdb2",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "twilightforest:phantom_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f50e24d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 7.0d,
+	y: -3.5d,
+	tasks: [{
+		uid: "4264713a",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemlinkingtool"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "aee45183",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

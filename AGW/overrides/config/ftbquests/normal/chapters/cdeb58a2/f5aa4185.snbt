@@ -1,0 +1,30 @@
+{
+	x: 6.0d,
+	y: 4.0d,
+	description: "镐子可以去挖矿，必备物品",
+	dependencies: [
+		"e7224d64"
+	],
+	tasks: [{
+		uid: "8d216d27",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "notreepunching:pickaxe/flint"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0437cc07",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "0da54e45",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

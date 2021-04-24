@@ -1,0 +1,25 @@
+{
+	x: 1.5d,
+	y: 0.0d,
+	dependencies: [
+		"4861ea6f"
+	],
+	tasks: [{
+		uid: "3033d698",
+		type: "kill",
+		title: "击杀娜迦",
+		icon: "twilightforest:trophy",
+		entity: "twilightforest:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a2117102",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "f166bbef",
+		type: "loot",
+		table: 0
+	}]
+}

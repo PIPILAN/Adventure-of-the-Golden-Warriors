@@ -1,0 +1,25 @@
+{
+	title: "法老王",
+	x: 2.5d,
+	y: 4.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "0d2fd83f",
+		type: "kill",
+		icon: "atum:loot_diamond_scepter",
+		entity: "atum:pharaoh",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d050ac9a",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	},
+	{
+		uid: "71184fb4",
+		type: "loot",
+		table: 0
+	}]
+}

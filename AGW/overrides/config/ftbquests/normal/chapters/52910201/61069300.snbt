@@ -1,0 +1,19 @@
+{
+	x: 8.5d,
+	y: 2.0d,
+	dependencies: [
+		"6d22208d"
+	],
+	tasks: [{
+		uid: "5a1451d5",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutchickenherder"
+		}]
+	}],
+	rewards: [{
+		uid: "62ec31d6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

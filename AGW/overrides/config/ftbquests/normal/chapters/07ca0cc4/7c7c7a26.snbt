@@ -1,0 +1,32 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	tasks: [{
+		uid: "99b1a543",
+		type: "stat",
+		title: "村民的好伙伴",
+		icon: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager"
+			}
+		},
+		stat: "stat.tradedWithVillager",
+		value: 50
+	}],
+	rewards: [{
+		uid: "5b8f5b1f",
+		type: "ftbmoney:money",
+		ftb_money: 5000L
+	},
+	{
+		uid: "5673a067",
+		type: "item",
+		item: {
+			id: "openblocks:trophy",
+			tag: {
+				entity_id: "minecraft:villager"
+			}
+		}
+	}]
+}

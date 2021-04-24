@@ -1,0 +1,14 @@
+{ 
+	"keepInventory": { 
+		"value": false,
+		"forced": true
+	},
+	"MODE_OR_WORLD_TYPE_SPECIFIC": { 
+		"survival": { 
+			"DIFFICULTY": { 
+				"value": "hard",
+				"forced": true
+			}
+		}
+	}
+}

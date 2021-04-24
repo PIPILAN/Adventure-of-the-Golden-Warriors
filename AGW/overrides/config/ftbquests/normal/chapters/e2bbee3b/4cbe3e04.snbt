@@ -1,0 +1,19 @@
+{
+	x: 4.0d,
+	y: -0.5d,
+	dependencies: [
+		"c20daf0a"
+	],
+	tasks: [{
+		uid: "b7881a44",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blockwell"
+		}]
+	}],
+	rewards: [{
+		uid: "d20ab2fe",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: -3.5d,
+	y: -3.0d,
+	dependencies: [
+		"8187e66f"
+	],
+	tasks: [{
+		uid: "87b8dff1",
+		type: "item",
+		items: [{
+			item: "astralsorcery:blocktreebeacon"
+		}]
+	}],
+	rewards: [{
+		uid: "e0aede5f",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

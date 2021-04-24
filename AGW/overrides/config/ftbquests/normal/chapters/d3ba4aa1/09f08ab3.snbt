@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	dependencies: [
+		"f44fb2d0"
+	],
+	tasks: [{
+		uid: "a51efe6d",
+		type: "item",
+		title: "能抵抗龙息的水晶块",
+		items: [{
+			item: "ebwizardry:crystal_block"
+		}]
+	}],
+	rewards: [{
+		uid: "6acd37c3",
+		type: "loot",
+		table: 1
+	}]
+}

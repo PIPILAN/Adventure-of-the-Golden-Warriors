@@ -1,0 +1,27 @@
+{
+	x: 2.0d,
+	y: 3.0d,
+	tasks: [{
+		uid: "1f95a5c4",
+		type: "kill",
+		title: "击杀一次游猎原始人首领",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "mowziesmobs:barakoa_mask_rage"
+		},
+		entity: "mowziesmobs:barakoana",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d0f35351",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "a8a95a3c",
+		type: "loot",
+		table: 0
+	}]
+}

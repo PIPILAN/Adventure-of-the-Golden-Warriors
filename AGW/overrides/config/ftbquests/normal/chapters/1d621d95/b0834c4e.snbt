@@ -1,0 +1,25 @@
+{
+	title: "碎石大师",
+	x: -1.0d,
+	y: 2.0d,
+	dependencies: [
+		"8b14c4db"
+	],
+	tasks: [{
+		uid: "c25316ea",
+		type: "kill",
+		icon: {
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "minecraft:diamond_sword"
+		},
+		entity: "atum:stonewarden",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "6317afbb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

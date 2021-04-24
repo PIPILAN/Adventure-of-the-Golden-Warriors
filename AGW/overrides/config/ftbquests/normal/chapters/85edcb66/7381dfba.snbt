@@ -1,0 +1,26 @@
+{
+	x: 1.0d,
+	y: -3.0d,
+	tasks: [{
+		uid: "d1af1e8f",
+		type: "item",
+		title: "制作一个背包",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "usefulbackpacks:backpack"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "dac92240",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	},
+	{
+		uid: "8b846c4a",
+		type: "loot",
+		table: 0
+	}]
+}

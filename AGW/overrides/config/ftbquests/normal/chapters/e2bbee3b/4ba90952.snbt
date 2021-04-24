@@ -1,0 +1,24 @@
+{
+	x: 1.0d,
+	y: -0.5d,
+	tasks: [{
+		uid: "709f7aa7",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			},
+			id: "astralsorcery:itemwand",
+			tag: {
+				astralsorcery: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca5fa303",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

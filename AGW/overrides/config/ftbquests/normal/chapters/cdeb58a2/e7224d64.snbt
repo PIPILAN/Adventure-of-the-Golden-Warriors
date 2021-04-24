@@ -1,0 +1,31 @@
+{
+	x: 4.5d,
+	y: 1.0d,
+	description: "用植物纤维制成的植物线可以做一些基础工具",
+	dependencies: [
+		"b437304e"
+	],
+	tasks: [{
+		uid: "6053fb84",
+		type: "item",
+		items: [{
+			item: "notreepunching:grass_string"
+		}]
+	}],
+	rewards: [{
+		uid: "f4ec2820",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "91ea0be8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	},
+	{
+		uid: "2a46f7f3",
+		type: "item",
+		item: "minecraft:flint",
+		count: 3
+	}]
+}

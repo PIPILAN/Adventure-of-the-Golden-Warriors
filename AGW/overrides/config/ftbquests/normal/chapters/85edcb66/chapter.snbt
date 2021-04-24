@@ -1,0 +1,18 @@
+{
+	title: "冒险的旅程",
+	icon: "waystones:waystone",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "",
+	images: [{
+		x: 3.5d,
+		y: 0.0d,
+		width: 5.0d,
+		height: 5.0d,
+		rotation: 0.0d,
+		image: "custommainmenu:textures/agw.png",
+		hover: [],
+		click: "",
+		dev: false
+	}]
+}

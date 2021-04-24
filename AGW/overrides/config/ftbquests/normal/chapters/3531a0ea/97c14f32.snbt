@@ -1,0 +1,19 @@
+{
+	x: 2.5d,
+	y: -1.0d,
+	dependencies: [
+		"6ed5b911"
+	],
+	tasks: [{
+		uid: "0eec33a7",
+		type: "item",
+		items: [{
+			item: "iceandfire:ice_dragon_heart"
+		}]
+	}],
+	rewards: [{
+		uid: "d7deaa94",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

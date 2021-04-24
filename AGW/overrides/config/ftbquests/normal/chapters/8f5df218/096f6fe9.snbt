@@ -1,0 +1,25 @@
+{
+	x: 7.5d,
+	y: 0.0d,
+	dependencies: [
+		"dd506afe"
+	],
+	tasks: [{
+		uid: "b0a3f427",
+		type: "kill",
+		title: "击杀幻影骑士军团",
+		icon: "twilightforest:trophy 1 4",
+		entity: "twilightforest:knight_phantom",
+		value: 8L
+	}],
+	rewards: [{
+		uid: "a668c68b",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	},
+	{
+		uid: "1954f333",
+		type: "loot",
+		table: 0
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: 1.0d,
+	description: "用小刀割草就可以获得植物纤维了",
+	dependencies: [
+		"ab57d1e0"
+	],
+	tasks: [{
+		uid: "8f3cd5c8",
+		type: "item",
+		items: [{
+			item: "notreepunching:grass_fiber"
+		}]
+	}],
+	rewards: [{
+		uid: "a11051a3",
+		type: "loot",
+		table: 0
+	},
+	{
+		uid: "060c8fa9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

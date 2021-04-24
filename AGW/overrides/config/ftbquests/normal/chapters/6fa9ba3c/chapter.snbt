@@ -1,0 +1,15 @@
+{
+	title: "百问百答",
+	icon: {
+		id: "minecraft:enchanted_book",
+		tag: {
+			StoredEnchantments: [{
+				lvl: 1s,
+				id: 187s
+			}]
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}
