@@ -1,4 +1,4 @@
-## LICENSE
+## AGW LICENSE
 
 ### 您可以自由地：
 
