@@ -147,6 +147,11 @@ mods.jei.JEI.removeAndHide(<minecraft:stone_axe>);
 mods.jei.JEI.removeAndHide(<minecraft:stone_shovel>);
 mods.jei.JEI.removeAndHide(<minecraft:stone_hoe>);
 
+//模拟殖民地
+recipes.addShaped(<minecolonies:blockhutfarmer:0>*3,[[<ore:plankWood>,<structurize:sceptergold:0>,<ore:plankWood>],[<ore:plankWood>,<minecraft:iron_hoe:0>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShaped(<minecolonies:blockhutlumberjack:0>*3,[[<ore:plankWood>,<structurize:sceptergold:0>,<ore:plankWood>],[<ore:plankWood>,<minecraft:iron_axe:0>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShaped(<minecolonies:blockhutminer:0>*3,[[<ore:plankWood>,<structurize:sceptergold:0>,<ore:plankWood>],[<ore:plankWood>,<minecraft:iron_pickaxe:0>,<ore:plankWood>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
+recipes.addShaped(<minecolonies:blockhutsawmill:0>*2,[[<ore:plankWood>,<structurize:sceptergold:0>,<ore:plankWood>],[<minecraft:iron_axe:0>,<minecraft:iron_axe:0>,<minecraft:iron_axe:0>],[<ore:plankWood>,<ore:plankWood>,<ore:plankWood>]]);
 
-
-
+//打印机修改
+recipes.addShaped(<cfm:printer:0>,[[<ore:stone>,<minecraft:paper:0>,<ore:stone>],[<minecraft:iron_block:0>,<minecraft:nether_star:0>,<minecraft:iron_block:0>],[<ore:stone>,<ore:stone>,<ore:stone>]]);

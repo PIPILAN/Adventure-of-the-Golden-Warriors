@@ -11,7 +11,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "Adventure of the Golden Warriors",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "",
   "files": [
     {
@@ -210,11 +210,6 @@
       "required": true
     },
     {
-      "projectID": 256359,
-      "fileID": 2656640,
-      "required": true
-    },
-    {
       "projectID": 298141,
       "fileID": 3097891,
       "required": true
@@ -356,7 +351,7 @@
     },
     {
       "projectID": 239197,
-      "fileID": 3202907,
+      "fileID": 3287253,
       "required": true
     },
     {
@@ -411,7 +406,7 @@
     },
     {
       "projectID": 279900,
-      "fileID": 3257119,
+      "fileID": 3148733,
       "required": true
     },
     {
@@ -505,6 +500,11 @@
       "required": true
     },
     {
+      "projectID": 292785,
+      "fileID": 2915154,
+      "required": true
+    },
+    {
       "projectID": 304493,
       "fileID": 2666560,
       "required": true
@@ -530,13 +530,13 @@
       "required": true
     },
     {
-      "projectID": 227639,
-      "fileID": 3051450,
+      "projectID": 238222,
+      "fileID": 3043174,
       "required": true
     },
     {
-      "projectID": 238222,
-      "fileID": 3043174,
+      "projectID": 227639,
+      "fileID": 3051450,
       "required": true
     },
     {
@@ -555,13 +555,13 @@
       "required": true
     },
     {
-      "projectID": 238794,
-      "fileID": 2836904,
+      "projectID": 312318,
+      "fileID": 3205508,
       "required": true
     },
     {
-      "projectID": 312318,
-      "fileID": 3205508,
+      "projectID": 238794,
+      "fileID": 2836904,
       "required": true
     },
     {
@@ -737,6 +737,11 @@
     {
       "projectID": 241721,
       "fileID": 3044416,
+      "required": true
+    },
+    {
+      "projectID": 222789,
+      "fileID": 3025806,
       "required": true
     },
     {

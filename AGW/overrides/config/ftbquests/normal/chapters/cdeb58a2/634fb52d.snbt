@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	description: "把燧石往石头上面敲碎应该就可以获得燧石碎片了（右键）",
+	dependencies: [
+		"ace872af"
+	],
+	tasks: [{
+		uid: "70fa7294",
+		type: "item",
+		items: [{
+			item: "notreepunching:flint_shard"
+		}]
+	}],
+	rewards: [{
+		uid: "4229c410",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

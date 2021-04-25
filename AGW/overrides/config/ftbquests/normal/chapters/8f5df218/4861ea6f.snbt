@@ -1,6 +1,7 @@
 {
 	x: -1.0d,
 	y: 0.0d,
+	description: "传送门好像是要4*4的水池和一圈花朵，然后丢入龙的颅骨应该就可以了",
 	tasks: [{
 		uid: "84105497",
 		type: "dimension",

@@ -1,10 +1,10 @@
 {
 	x: 1.5d,
 	y: 1.0d,
-	description: "有了树枝和燧石可以制作一个小刀了",
+	description: "有了树枝和燧石碎片可以制作一个小刀了",
 	dependencies: [
 		"61e46135",
-		"ace872af"
+		"634fb52d"
 	],
 	tasks: [{
 		uid: "a93cf1af",
@@ -17,5 +17,10 @@
 		}],
 		ignore_damage: true,
 		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2f808050",
+		type: "loot",
+		table: 0
 	}]
 }

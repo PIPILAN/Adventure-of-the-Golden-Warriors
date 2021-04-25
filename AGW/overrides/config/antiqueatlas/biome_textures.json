@@ -201,6 +201,7 @@
     "twilightforest:twilight_highlands": "PINES_HILLS",
     "twilightforest:twilight_lake": "WATER",
     "twilightforest:twilight_stream": "WATER",
-    "twilightforest:twilight_swamp": "SWAMP"
+    "twilightforest:twilight_swamp": "SWAMP",
+    "yurtmod:tent": "PLAINS"
   }
 }

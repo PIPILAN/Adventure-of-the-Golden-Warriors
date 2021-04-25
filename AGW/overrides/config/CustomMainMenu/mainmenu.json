@@ -170,8 +170,8 @@
             "height" : 20,
             "action" : 
             {
-                "type" : "openGui",
-				"gui": "custom.Changelog"
+                "type" : "openLink",
+				"link": "https://pipilan.gitbook.io/adventure-of-the-golden-warriors/geng-xin-ji-lu"
             }
         }
     },
@@ -203,7 +203,7 @@
         },
         "myversion":
         {
-            "text" : "§6当前版本-AGW Current Version：1.1.1",
+            "text" : "§6当前版本-AGW Current Version：1.1.2",
             "posX" : 0,
             "posY" : -20,
             "color" : -1,
