@@ -117,7 +117,7 @@
   "inventorypets": "2.0.13",
   "crafttweaker": "4.1.20",
   "aarcaddon": "1.0.1",
-  "forge": "14.23.5.2855",
+  "forge": "14.23.5.2859",
   "ruins": "17.2",
   "phosphor-lighting": "1.12.2-0.2.7",
   "ftbutilities": "5.4.1.131",
