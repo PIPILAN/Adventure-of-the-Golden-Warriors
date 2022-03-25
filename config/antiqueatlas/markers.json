@@ -19,6 +19,8 @@
       "centerX": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)",
       "centerY": "[Default: 0.5] The point in the image that should be at the location of the marker (0-1)"
     },
+    "ancientspellcraft:battlemage_camp": {},
+    "ancientspellcraft:battlemage_keep": {},
     "antiqueatlas:bed": {},
     "antiqueatlas:diamond": {},
     "antiqueatlas:end_city": {},

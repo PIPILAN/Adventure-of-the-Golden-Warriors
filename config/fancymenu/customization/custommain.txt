@@ -1,0 +1,271 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.GuiMainMenu
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = agw_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = mid-centered
+  x = -233
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=400322%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = §f§l多人游戏
+}
+
+customization {
+  identifier = %id=400322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundnormal = resources\fancymenu\ui\none.png
+}
+
+customization {
+  identifier = %id=400322%
+  action = sethoverlabel
+  label = §d§lMultiplayer
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-centered
+  x = -233
+  action = movebutton
+  y = -7
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = §f§l游戏选项
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundnormal = resources\fancymenu\ui\none.png
+}
+
+customization {
+  identifier = %id=400382%
+  action = sethoverlabel
+  label = §a§lOptions
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-centered
+  x = -233
+  action = movebutton
+  y = 13
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = §f§l退出游戏
+}
+
+customization {
+  identifier = %id=502382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundnormal = resources\fancymenu\ui\none.png
+}
+
+customization {
+  identifier = %id=502382%
+  action = sethoverlabel
+  label = §f§lQuit
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = mid-centered
+  x = -233
+  action = movebutton
+  y = -67
+}
+
+customization {
+  identifier = %id=400298%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = §f§l单人冒险
+}
+
+customization {
+  identifier = %id=400298%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundnormal = resources\fancymenu\ui\none.png
+}
+
+customization {
+  identifier = %id=400298%
+  action = sethoverlabel
+  label = §6§lSingleplayer
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = mid-centered
+  x = -233
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = §f§l模组列表
+}
+
+customization {
+  identifier = %id=400346%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundnormal = resources\fancymenu\ui\none.png
+}
+
+customization {
+  identifier = %id=400346%
+  action = sethoverlabel
+  label = §b§lMods
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  action = hidebutton
+}
+
+customization {
+  path = resources/fancymenu/ui/logo.png
+  orientation = mid-centered
+  x = -232
+  width = 200
+  actionid = 5ef0261e-c5ba-428b-84c0-c7af61be26f81648184233355
+  action = addtexture
+  y = -116
+  height = 43
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  label = §f§l官方群聊
+  loopbackgroundanimations = true
+  hoverlabel = §4§lGroup
+  x = -233
+  width = 98
+  actionid = f71ab77d-36c1-47e3-8694-cf80a61f4d351648184779353
+  action = addbutton
+  y = 33
+  backgroundnormal = resources\fancymenu\ui\none.png
+  value = https://jq.qq.com/?_wv=1027&k=38AuYo37
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  label = §f§l维基百科
+  loopbackgroundanimations = true
+  hoverlabel = §c§lWIKI
+  x = -233
+  width = 100
+  actionid = a358329e-f1cd-41c6-8c11-3621428402a11648184932502
+  action = addbutton
+  y = 53
+  backgroundnormal = resources\fancymenu\ui\none.png
+  value = https://pipilan.gitbook.io/adventure-of-the-golden-warriors/
+  height = 20
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink
+  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  label = §f§l反馈建议
+  loopbackgroundanimations = true
+  hoverlabel = §e§lSuggestions
+  x = -233
+  width = 100
+  actionid = 246f4490-b659-455d-9863-de6c4247cf701648185036912
+  action = addbutton
+  y = 73
+  backgroundnormal = resources\fancymenu\ui\none.png
+  value = https://support.qq.com/products/384353
+  height = 20
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  x = 0
+  actionid = 60bd0273-e6f4-4e49-b890-e5dab092c7851648188459848
+  action = addtext
+  y = -9
+  scale = 1.0
+  alignment = left
+  value = §6当前版本-Current Version：1.1.2
+}
+
