@@ -9,7 +9,8 @@
 			ForgeCaps: {
 				"astralsorcery:cap_item_amulet_holder": {}
 			},
-			id: "usefulbackpacks:backpack"
+			id: "usefulbackpacks:backpack",
+			Count: 1b
 		}],
 		ignore_nbt: 1b
 	}],

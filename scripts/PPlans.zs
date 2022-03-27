@@ -1,5 +1,4 @@
 //矿物词典
-<ore:feather>.addItems([<erebus:materials:6>]);
 <ore:feather>.addItems([<animania:blue_peacock_feather:0>]);
 <ore:feather>.addItems([<animania:white_peacock_feather:0>]);
 <ore:feather>.addItems([<animania:charcoal_peacock_feather:0>]);
@@ -15,10 +14,6 @@
 <ore:listAllmilk>.addItems([<forge:bucketfilled:0>.withTag({FluidName: "milk_sheep", Amount: 1000})]);
 //暮色森林分解台
 mods.jei.JEI.removeAndHide(<twilightforest:uncrafting_table:0>);
-//心粉和心之容器
-recipes.remove(<scalinghealth:heartdust>);
-recipes.addShapeless(<minecraft:paper>*4,[<minecraft:log:2>,<minecraft:log:2>]);
-recipes.addShapeless(<scalinghealth:crystalshard>,[<scalinghealth:heartdust:0>,<scalinghealth:heartdust:0>,<scalinghealth:heartdust:0>,<scalinghealth:heartdust:0>]);
 //光谱粉
 recipes.addShaped(<bountifulbaubles:spectralsilt>,[[<minecraft:glowstone_dust>,<minecraft:diamond>,<minecraft:glowstone_dust>],[<minecraft:diamond>,<minecraft:nether_star>,<minecraft:diamond>],[<minecraft:glowstone_dust>,<minecraft:diamond>,<minecraft:glowstone_dust>]]);
 //魔理沙的扫帚
@@ -33,7 +28,6 @@ recipes.remove(<spartanweaponry:arrow_diamond:0>);
 recipes.addShapeless(<iceandfire:dragonbone_arrow:0>*32,[<iceandfire:dragonbone:0>,<iceandfire:wither_shard:0>]);
 recipes.addShaped(<minecraft:arrow:0>*32,[[<minecraft:flint:0>],[<ore:stickWood>],[<ore:feather>]]);
 recipes.addShaped(<minecraft:arrow:0>*32,[[<defiledlands:vilespine:0>],[<ore:stickWood>],[<ore:feather>]]);
-recipes.addShaped(<minecraft:arrow:0>*32,[[<erebus:materials:2>],[<ore:stickWood>],[<ore:feather>]]);
 recipes.addShaped(<spartanweaponry:arrow_wood:0>*32,[[<ore:logWood>],[<ore:stickWood>],[<ore:feather>]]);
 recipes.addShaped(<spartanweaponry:arrow_iron:0>*32,[[<ore:ingotIron>],[<ore:stickWood>],[<ore:feather>]]);
 recipes.addShaped(<spartanweaponry:arrow_diamond:0>*32,[[<ore:gemDiamond>],[<ore:stickWood>],[<ore:feather>]]);
@@ -97,10 +91,6 @@ recipes.addShaped(<aether:aether_crafting_table:0>,[[<ore:skyrootplanks>,<ore:sk
 recipes.remove(<aether:skyroot_chest:0>);
 recipes.addShaped(<aether:skyroot_chest:0>,[[<ore:skyrootplanks>,<ore:skyrootplanks>,<ore:skyrootplanks>],[<ore:skyrootplanks>,<ore:ingotIron>,<ore:skyrootplanks>],[<ore:skyrootplanks>,<ore:skyrootplanks>,<ore:skyrootplanks>]]);
 
-//混沌之地
-recipes.remove(<erebus:bamboo_crate:0>);
-recipes.addShaped(<erebus:bamboo_crate:0>,[[<erebus:materials:3>,<erebus:planks:8>,<erebus:materials:3>],[<erebus:planks:8>,<ore:ingotIron>,<erebus:planks:8>],[<erebus:materials:3>,<erebus:planks:8>,<erebus:materials:3>]]);
-
 //阿图姆二
 recipes.remove(<atum:limestone_chest:0>);
 recipes.addShaped(<atum:limestone_chest:0>,[[<ore:stoneLimestone>,<ore:stoneLimestone>,<ore:stoneLimestone>],[<ore:stoneLimestone>,<ore:ingotIron>,<ore:stoneLimestone>],[<ore:stoneLimestone>,<ore:stoneLimestone>,<ore:stoneLimestone>]]);
@@ -149,3 +139,9 @@ mods.jei.JEI.removeAndHide(<minecraft:stone_hoe>);
 
 //打印机修改
 recipes.addShaped(<cfm:printer:0>,[[<ore:stone>,<minecraft:paper:0>,<ore:stone>],[<minecraft:iron_block:0>,<minecraft:nether_star:0>,<minecraft:iron_block:0>],[<ore:stone>,<ore:stone>,<ore:stone>]]);
+
+/* 记录import mods.initialinventory.InvHandler;
+mods.initialinventory.InvHandler.addStartingItem(<ftbquests:book:0>);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:bbqpulledporkitem:0>*4);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:sundayroastitem:0>*4);
+mods.initialinventory.InvHandler.addStartingItem(<harvestcraft:supremepizzaitem:0>*2); */

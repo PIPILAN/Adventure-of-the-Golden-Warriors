@@ -20,10 +20,10 @@ customization {
 
 customization {
   identifier = %id=400322%
-  orientation = mid-centered
-  x = -233
+  orientation = top-left
+  x = -20
   action = movebutton
-  y = -47
+  y = 80
 }
 
 customization {
@@ -44,7 +44,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   backgroundnormal = resources\fancymenu\ui\none.png
 }
 
@@ -56,10 +56,10 @@ customization {
 
 customization {
   identifier = %id=400382%
-  orientation = mid-centered
-  x = -233
+  orientation = top-left
+  x = -20
   action = movebutton
-  y = -7
+  y = 120
 }
 
 customization {
@@ -73,7 +73,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   backgroundnormal = resources\fancymenu\ui\none.png
 }
 
@@ -85,10 +85,10 @@ customization {
 
 customization {
   identifier = %id=502382%
-  orientation = mid-centered
-  x = -233
+  orientation = top-left
+  x = -20
   action = movebutton
-  y = 13
+  y = 140
 }
 
 customization {
@@ -102,7 +102,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   backgroundnormal = resources\fancymenu\ui\none.png
 }
 
@@ -119,10 +119,10 @@ customization {
 
 customization {
   identifier = %id=400298%
-  orientation = mid-centered
-  x = -233
+  orientation = top-left
+  x = -20
   action = movebutton
-  y = -67
+  y = 60
 }
 
 customization {
@@ -143,7 +143,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   backgroundnormal = resources\fancymenu\ui\none.png
 }
 
@@ -155,10 +155,10 @@ customization {
 
 customization {
   identifier = %id=400346%
-  orientation = mid-centered
-  x = -233
+  orientation = top-left
+  x = -20
   action = movebutton
-  y = -27
+  y = 100
 }
 
 customization {
@@ -172,7 +172,7 @@ customization {
   loopbackgroundanimations = true
   restartbackgroundanimations = true
   action = setbuttontexture
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   backgroundnormal = resources\fancymenu\ui\none.png
 }
 
@@ -193,65 +193,65 @@ customization {
 }
 
 customization {
-  path = resources/fancymenu/ui/logo.png
-  orientation = mid-centered
-  x = -232
+  path = resources/fancymenu/ui/title.png
+  orientation = top-left
+  x = 5
   width = 200
   actionid = 5ef0261e-c5ba-428b-84c0-c7af61be26f81648184233355
   action = addtexture
-  y = -116
+  y = 10
   height = 43
 }
 
 customization {
-  orientation = mid-centered
+  orientation = top-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   label = §f§l官方群聊
   loopbackgroundanimations = true
   hoverlabel = §4§lGroup
-  x = -233
+  x = -20
   width = 98
   actionid = f71ab77d-36c1-47e3-8694-cf80a61f4d351648184779353
   action = addbutton
-  y = 33
+  y = 160
   backgroundnormal = resources\fancymenu\ui\none.png
-  value = https://jq.qq.com/?_wv=1027&k=38AuYo37
+  value = https://t.hk.uy/aT2j
   height = 20
 }
 
 customization {
-  orientation = mid-centered
+  orientation = top-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   label = §f§l维基百科
   loopbackgroundanimations = true
   hoverlabel = §c§lWIKI
-  x = -233
+  x = -20
   width = 100
   actionid = a358329e-f1cd-41c6-8c11-3621428402a11648184932502
   action = addbutton
-  y = 53
+  y = 180
   backgroundnormal = resources\fancymenu\ui\none.png
   value = https://pipilan.gitbook.io/adventure-of-the-golden-warriors/
   height = 20
 }
 
 customization {
-  orientation = mid-centered
+  orientation = top-left
   restartbackgroundanimations = true
   buttonaction = openlink
-  backgroundhovered = resources\fancymenu\ui\button_hover.png
+  backgroundhovered = resources\fancymenu\ui\button.png
   label = §f§l反馈建议
   loopbackgroundanimations = true
   hoverlabel = §e§lSuggestions
-  x = -233
+  x = -20
   width = 100
   actionid = 246f4490-b659-455d-9863-de6c4247cf701648185036912
   action = addbutton
-  y = 73
+  y = 200
   backgroundnormal = resources\fancymenu\ui\none.png
   value = https://support.qq.com/products/384353
   height = 20
@@ -266,6 +266,19 @@ customization {
   y = -9
   scale = 1.0
   alignment = left
-  value = §6当前版本-Current Version：1.1.2
+  value = §6§l当前版本-Current Version: §4§l2.0.0
+}
+
+customization {
+  orientation = bottom-left
+  shadow = true
+  multiline = false
+  x = 0
+  action = addwebtext
+  actionid = 5f2e6f18-b820-4ae6-aa28-c5de709692781648188627864
+  y = -20
+  scale = 1.0
+  alignment = left
+  url = https://gitee.com/pipilans/IMG/raw/master/AGW/version.txt
 }
 
