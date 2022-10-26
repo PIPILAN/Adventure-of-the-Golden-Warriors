@@ -10,11 +10,12 @@
 !/local
 
 #Files
-!/.gitignore
+/.gitignore
 !/LICENSE.md
 !/options.txt
 !/optionsof.txt
 !/README.md
+!/RecordAndUpdate.md
 
 #ignore
 local/client
