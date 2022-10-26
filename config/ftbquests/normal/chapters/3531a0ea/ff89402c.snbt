@@ -33,7 +33,8 @@
 		},
 		{
 			item: "iceandfire:dragonscales_silver"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "d882c963",

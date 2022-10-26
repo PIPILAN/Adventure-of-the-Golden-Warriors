@@ -11,7 +11,8 @@
 		type: "item",
 		items: [{
 			item: "iceandfire:dragonbone"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "a59794ed",

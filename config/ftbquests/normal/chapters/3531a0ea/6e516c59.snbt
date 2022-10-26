@@ -9,7 +9,8 @@
 		type: "item",
 		items: [{
 			item: "iceandfire:ice_dragon_blood"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "06fc4ae6",

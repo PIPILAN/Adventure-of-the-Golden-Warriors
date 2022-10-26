@@ -328,6 +328,10 @@
 		}
 	},
 	{
+		item: "morefurnaces:furnaceblock 1 2",
+		weight: 5
+	},
+	{
 		item: "ironchest:iron_chest 1 5",
 		weight: 5
 	},

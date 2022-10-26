@@ -10,7 +10,7 @@
 		width: 5.0d,
 		height: 5.0d,
 		rotation: 0.0d,
-		image: "fancymenu:ui/agw.png",
+		image: "custommainmenu:textures/agw.png",
 		hover: [],
 		click: "",
 		dev: false

@@ -1,0 +1,19 @@
+{
+	x: 5.5d,
+	y: -1.0d,
+	dependencies: [
+		"6d22208d"
+	],
+	tasks: [{
+		uid: "60b4ec5a",
+		type: "item",
+		items: [{
+			item: "minecolonies:blockhutguardtower"
+		}]
+	}],
+	rewards: [{
+		uid: "37325a0d",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,234 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/newlogo.png",
+            "posX" : -220,
+            "posY" : 10,
+            "width" : 200,
+            "height" : 43,
+			"imageWidth": 1006,
+			"imageHeight": 216,
+            "alignment" : "top_right"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "§l单人冒险",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lSingleplayer",
+			"hoverTextColor": "647095",
+            "posX" : 120,
+            "posY" : 0,
+            "width" : 98,
+            "height" : 20,
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "§l多人游戏",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lMultiplayer",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 21,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "§l模组列表",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lMods",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 42,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "§l游戏选项",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lOptions",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 63,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "§l退出游戏",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lQuit",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 84,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "official_qq":
+        {
+            "text" : "§l官方群聊",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lGroup",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 105,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+				"link": "https://jq.qq.com/?_wv=1027&k=38AuYo37"
+            }
+        },
+        
+        "afdian":
+        {
+            "text" : "§l赞助作者",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lSponsor",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 126,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+				"link": "https://afdian.net/@pipilan"
+            }
+        },
+        
+        "Changelog":
+        {
+            "text" : "§l更新记录",
+			"texture": "custommainmenu:textures/button.png",
+			"normalTextColor": "16579836",
+			"hoverText": "§lChangelog",
+			"hoverTextColor": "647095",
+			"imageWidth": 980,
+			"imageHeight": 200,
+            "posX" : 120,
+            "posY" : 147,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openLink",
+				"link": "https://pipilan.gitbook.io/adventure-of-the-golden-warriors/geng-xin-ji-lu"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "?nCopyright Mojang AB. Do not distribute!",
+            "posX" : -150,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        "myversion":
+        {
+            "text" : "§6当前版本-AGW Current Version：1.1.2+",
+            "posX" : 0,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+		,
+        "welcome":
+        {
+            "text" : "§6Welcome to my modpack,#username#!",
+            "posX" : 0,
+            "posY" : -20,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+		"background":
+		{
+            "image":"custommainmenu:textures/background.png",
+            "mode":"fill",
+            "slideshow": {
+				"images": [
+                    "custommainmenu:backgrounds/1.png",
+                    "custommainmenu:backgrounds/2.png",
+                    "custommainmenu:backgrounds/3.png",
+                    "custommainmenu:backgrounds/4.png"
+				],
+				"shuffle": true,
+				"displayDuration": 100,
+				"fadeDuration": 30,
+				"sync": true
+			}
+		}
+    }
+}

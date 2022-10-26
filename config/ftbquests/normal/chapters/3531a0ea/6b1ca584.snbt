@@ -10,7 +10,8 @@
 		type: "item",
 		items: [{
 			item: "iceandfire:dragonsteel_ice_ingot"
-		}]
+		}],
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "922f82d9",

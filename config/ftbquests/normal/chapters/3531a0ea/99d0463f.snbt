@@ -10,14 +10,16 @@
 		type: "item",
 		items: [{
 			item: "iceandfire:dragonforge_ice_core_disabled"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "61279d0d",
 		type: "item",
 		items: [{
 			item: "iceandfire:dragonforge_ice_input"
-		}]
+		}],
+		ignore_nbt: 1b
 	},
 	{
 		uid: "0ff9b26f",
@@ -25,7 +27,8 @@
 		items: [{
 			item: "iceandfire:dragonforge_ice_brick"
 		}],
-		count: 17L
+		count: 17L,
+		ignore_nbt: 1b
 	},
 	{
 		uid: "35456565",
@@ -33,7 +36,8 @@
 		items: [{
 			item: "iceandfire:dragon_bone_block"
 		}],
-		count: 8L
+		count: 8L,
+		ignore_nbt: 1b
 	}],
 	rewards: [{
 		uid: "ae0849ca",

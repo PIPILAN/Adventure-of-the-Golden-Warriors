@@ -2,6 +2,9 @@
 	x: 3.0d,
 	y: 1.0d,
 	description: "用小刀割草就可以获得植物纤维了",
+	text: [
+		"&a使用小刀破坏草即可获得纤维"
+	],
 	dependencies: [
 		"ab57d1e0"
 	],
