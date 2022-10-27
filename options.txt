@@ -115,7 +115,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:0
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -123,6 +122,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:0
 key_quark.keybind.lockBuilding:0
 key_keys.baubleshud.config:73
 key_cos.key.opencosarmorinventory:0
@@ -135,9 +135,9 @@ key_key.ftbutilities.trash:211
 key_key.ftbquests.quests:20
 key_key.ftbmoney.shop:0
 key_key.fart.desc:0
-key_key.inventorysorter.itemout:-201
-key_key.inventorysorter.itemin:-200
 key_key.inventorysorter.sort:-98
+key_key.inventorysorter.itemin:-200
+key_key.inventorysorter.itemout:-201
 key_openblocks.keybind.vario_switch:0
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0

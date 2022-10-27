@@ -29,6 +29,7 @@
   "llibrary": "1.7.20",
   "uteamcore": "2.2.5.226",
   "grimoireofgaia": "1.7.2",
+  "progressivebosses": "1.5.4",
   "additionalstructures": "2.5.0",
   "ftblib": "5.4.7.2",
   "waila": "1.8.26",
